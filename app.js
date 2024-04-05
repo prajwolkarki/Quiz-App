@@ -10,21 +10,84 @@ const questions = [
         ]
     },
     {
-        question: "Which is the largest animal in the world?",
+        question: "What is the capital of France?",
         answers: [
-            { text: "Tiger", correct: false },
-            { text: "Giraffe", correct: false },
-            { text: "Elephant", correct: true },
-            { text: "Kangaroo", correct: false },
+            { text: "Berlin", correct: false },
+            { text: "London", correct: false },
+            { text: "Paris", correct: true },
+            { text: "Rome", correct: false }
         ]
     },
     {
-        question: "Which  is the largest continent in the world?",
+        question: "Which planet is known as the Red Planet?",
         answers: [
-            { text: "Antartica", correct: false },
-            { text: "Africa", correct: false },
-            { text: "Europe", correct: false },
-            { text: "Asia", correct: true },
+            { text: "Mars", correct: true },
+            { text: "Venus", correct: false },
+            { text: "Jupiter", correct: false },
+            { text: "Saturn", correct: false }
+        ]
+    },
+    {
+        question: "Who wrote 'To Kill a Mockingbird'?",
+        answers: [
+            { text: "Harper Lee", correct: true },
+            { text: "Mark Twain", correct: false },
+            { text: "J.K. Rowling", correct: false },
+            { text: "Stephen King", correct: false }
+        ]
+    },
+    {
+        question: "What is the chemical symbol for water?",
+        answers: [
+            { text: "H2O", correct: true },
+            { text: "CO2", correct: false },
+            { text: "O2", correct: false },
+            { text: "NaCl", correct: false }
+        ]
+    },
+    {
+        question: "Which famous scientist developed the theory of general relativity?",
+        answers: [
+            { text: "Isaac Newton", correct: false },
+            { text: "Albert Einstein", correct: true },
+            { text: "Galileo Galilei", correct: false },
+            { text: "Stephen Hawking", correct: false }
+        ]
+    },
+    {
+        question: "Who painted the Mona Lisa?",
+        answers: [
+            { text: "Vincent van Gogh", correct: false },
+            { text: "Leonardo da Vinci", correct: true },
+            { text: "Pablo Picasso", correct: false },
+            { text: "Claude Monet", correct: false }
+        ]
+    },
+    {
+        question: "What is the largest mammal in the world?",
+        answers: [
+            { text: "Elephant", correct: false },
+            { text: "Blue Whale", correct: true },
+            { text: "Giraffe", correct: false },
+            { text: "Hippopotamus", correct: false }
+        ]
+    },
+    {
+        question: "Which country is famous for producing maple syrup?",
+        answers: [
+            { text: "Canada", correct: true },
+            { text: "Australia", correct: false },
+            { text: "Russia", correct: false },
+            { text: "Brazil", correct: false }
+        ]
+    },
+    {
+        question: "Who was the first woman to win a Nobel Prize?",
+        answers: [
+            { text: "Marie Curie", correct: true },
+            { text: "Rosalind Franklin", correct: false },
+            { text: "Ada Lovelace", correct: false },
+            { text: "Jane Goodall", correct: false }
         ]
     }
 ];
